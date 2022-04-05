@@ -1,0 +1,20 @@
+iniciar git
+iniciar versionamento 
+criar commit
+
+- git init
+- git add
+- git commit
+
+livro de receitas
+mkdir cria pasta
+git init
+cria pasta oculta de versionamento
+ls -a ve pasta oculta
+
+criar arquivo
+markdown html humana
+ .md 
+commitando
+git add *
+git commit -m "Commit inicial"

@@ -1,0 +1,16 @@
+git init cria um repositorio
+tracked, monitorados pelo git
+unmodifyed nao modificado ,
+staged arquivos que estao se preparando para um commit
+
+repositório: ambiente de desenvolvimento e servidor 
+ao dar commit vira repositorio local que pode ser empurrado para repositorio remoto
+
+git status monitora status untraked modifyed staged ...
+mv move arquivos
+mv strog.md ./receitas/
+git add bota no staged
+git restore volta ao status
+
+echo > README.md    cria arquivo 
+git add * pega tudo e staged

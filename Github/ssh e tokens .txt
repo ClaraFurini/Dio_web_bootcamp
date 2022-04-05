@@ -1,0 +1,16 @@
+autenticação necessária para empurrao ao github
+chave ssh - estabelece conexão segura entre duas maquinas com chave publica e privada(conexão)
+
+criando uma chave de comunicação git e github 
+ssh-keygen -t ed25519 -C claraafurinii@gmail.com
+fazer cadastro da senha
+entrar na pasta .ssh
+cat id_edtab.pub
+copiar chave e colar no github
+
+pwd mostra caminho 
+ls lista 
+
+eval $(ssh-agent -s)  starta projeto
+numero do processo aparece
+ssh-add id_ed25519 passar chave privada

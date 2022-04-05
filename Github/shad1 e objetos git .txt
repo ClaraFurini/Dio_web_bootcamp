@@ -1,0 +1,27 @@
+SHA secure hash algorithm -> dados encriptados de 40 dígitos único.
+hash (resume dados) forma curta de representar um arquivo com uma chave diferente 
+echo joga string no terminal 
+( echo "ola mundo" | openssl sha1) comando que retorna a chave de encriptação
+Ao clicar em uma pasta e git bash here o git abre com o caminho da pasta
+
+objetos do git 
+
+blobs 
+echo 'conteudo'  
+git hash-object --stdin
+tipo, tamanho, \0conteudo
+echo -e 'blob 9\0conteudo  openssl sha1
+retorna a chave e armazena metadados do git
+
+trees
+\0 blob sa4d8s texto.txt
+metadados e aponta para blobs ou arvores e nome do arquivo
+readme rekefile lib
+
+commits
+junta arvores e arquivos , parente(ultmo commit) autor e mensagem.
+timestamp - quando foi criado 
+o sha1 do commit é o hash da informação 
+
+se um dado em uma blob é alterado, o sha1 da arvore muda e consequentemente o sha1 do commit também muda
+assim se cria a linha do tempo de alterações
